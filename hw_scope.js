@@ -83,7 +83,7 @@ changeWeapon("Revolver");
 const verdict = declareWeapon();
 console.log(verdict);
 
-// ANSWER: verdict = "candle stick" cause you can't change a const
+// ANSWER: verdict = "candle stick" cause you can't change a const WRONG - it's revolver
 
 // Episode 6
 let murderer = "Colonel Mustard";
@@ -173,7 +173,7 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 
-//ANSWER: verdict = "Lead Pipe" because the object is a const it cannot be changed by the function.
+//ANSWER: verdict = "Lead Pipe" because the object is a const it cannot be changed by the function. WRONG - "candle stick" as const objects can be mutated.
 
 // Episode 9
 let murderer = "Professor Plum";
